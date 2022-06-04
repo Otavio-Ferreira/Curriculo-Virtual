@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #06AEF1, #03C4F0, #B4D3F2)
+}
+
+header{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-bottom: solid 1px white;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 30px;
+    margin: 20px;
+}
+
+#naveg{
+    
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+#titles{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#principal{
+    display: flex;
+    border: solid 2px #334458;
+    max-width: 650px;
+    height: 216px;
+    margin: auto;
+    background: #B3D2F1;
+    
+}
+
+#principal img{
+    width: 320px;
+}
+
+#texto-principal{
+    padding: 10px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#texto-infor{
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+}
+
+#texto-infor p{
+    margin: 3px;
+}
+
+#secundário h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#secundário{
+    margin-top: 30px;
+}
+
+#secund {
+    background: #B3D2F1;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    border: solid 2px #334458;
+    max-width: 650px;
+}
+
+#txt{
+    width: 300px;
+    margin: 5px;
+}
+#txt p{
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#espe{
+    margin: 5px;
+    margin-left: 20px;
+}
+
+#espe p{
+    margin: 2px;
+}
+
+#terciário h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#terciário{
+    margin-top: 30px;
+}
+
+#terc{
+    background: #B3D2F1;
+    padding: 10px;
+    margin: auto;
+    border: solid 2px #334458;
+    max-width: 650px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#terc p{
+    margin: 5px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    height: 65px;
+    background-color: #4A5F74;
+   
+}
+
+footer p{
+    padding: 20px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+}
