@@ -373,82 +373,8 @@ article{
   .proj{
     margin: auto;
   }
-}
 
-@media(max-width: 400px){
-
-  main{
-    width: 380px;
-    margin: auto;
-  }
-
-  header{
-    display: block;
-    text-align: center;
-  }
-
-  #text{
-    font-size: 16px;
-    color: rgb(180, 179, 179);
-    margin: 10px;
-  }
-
-  #infor-ini{
-    display: block;
-    color: white;
-    margin: 20px;
-    text-align: center;
-    color: white;
-  }
-
-  #about{
-    width: 380px;
-
-  }
-
-  #imgcarro{
-    width:380px;
-    height:250px;
-  }
-  
-  .carroimg{
-    width: 380px;
-    height: 250px;
-  }
-
-  #skills{
-    width: 380px;
-  }
-  
-  #container{
-    width: 380px;
-  }
-
-  article{
-    display: block;
-    margin: auto;
-  }
-
-  #portifolio{
-    width: 380px;
-    margin: auto;
-  }
-
-  #projetos{
-    margin: auto;
-  }
-  .caixaprojeto{
-    margin: 20px auto 20px auto;
-    width: 380px;
-    height: auto;
-    
-  }
-
-  .imgprojeto{
-    width: 370px;
-  }
-  .proj{
-    margin: auto;
+  .imgsredes{
+    margin-left: 5px;
   }
 }
-
