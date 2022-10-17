@@ -1,0 +1,454 @@
+@font-face {
+  font-family: 'fontprincipal';
+  src: url(fontes/Righteous-Regular.ttf) format('truetype');
+}
+
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+  /*background-color: #2a576965;*/
+  background-image: linear-gradient(to bottom, #034F50, #50A5A6, #92D1C8, #CFF5EE);
+}
+
+#sub-header{
+  background-color: #002E40;
+  display: flex;
+  margin: auto;
+  padding: 5px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'fontprincipal';
+  color: white;
+}
+
+.imgsredes{
+  width: 25px;
+  margin-left: 20px;
+}
+
+header{
+  background-color: #FABD4A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: 'fontprincipal';
+  color: white;
+  border-bottom: solid 0.5px white;
+}
+
+nav > a{
+  text-decoration: none;
+  color: grey;
+  margin-left: 20px;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+main{
+  width: 1200px;
+  margin: auto;
+ 
+}
+
+#text{
+  font-size: 25px;
+  font-family: 'fontprincipal';
+  color: rgb(75, 75, 75);
+}
+#infor-ini{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: solid 1px gray;
+}
+
+#imgprincp{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+
+#imgcarro{
+  overflow:hidden;
+  position: relative;
+  width:450px;
+  height:300px;
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+}
+
+.carroimg{
+  position:absolute;
+  width: 450px;
+  height: 300px;
+  
+
+  -webkit-transition: margin-left 500ms ease-in;
+  -moz-transition: margin-left 500ms ease-in;
+  -o-transition: margin-left 500ms ease-in;
+  transition: margin-left 500ms ease-in;
+}
+
+#ativa{
+  margin-left:0%;
+}
+
+#about{
+  padding: 10px;
+  width: 500px;
+  margin: auto;
+  border: solid 1px white;
+  border-radius: 5px;
+  height: 550px;
+  background: white;
+  box-shadow: 3px 2px 2px black;
+  align-content: space-around;
+}
+
+#text3{
+  padding: 30px;
+  align-items: center;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+#skills{
+  border-top: solid 1px white;
+  border-bottom: solid 1px white;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+  padding: 10px;
+}
+
+#container{
+  width: 500px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px auto 30px auto;
+}
+
+#text4{
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: dashed 1px black;
+}
+
+#text4 > h3{
+  font-family: 'fontprincipal';
+  background-color: gray;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#skills > h2 {
+  text-align: center;
+  color: white;
+  font-family: 'fontprincipal';
+}
+
+#lista{
+  display: flex;
+  width: 200px;
+  margin: auto;
+  justify-content: center;
+}
+
+#lista > div{
+  padding: 10px;
+  font-family: 'fontprincipal';
+  font-size: 18px;
+  text-align: justify;
+  margin: 5px;
+}
+
+button{
+  font-size: 20px;
+  color: black;
+  background-color: gray;
+  width: 40px;
+  height: 40px;
+  border-radius: 7px;
+}
+
+.imgprojeto{
+  width: 450px;
+}
+
+.caixaprojeto{
+  border: solid 1px black;
+  width: 450px;
+  height: 350px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center;
+  background-color: #002E40;
+  margin: 50px;
+}
+
+.textproject{
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#projetos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn{
+  width: 100px;
+  color: white;
+  font-family: 'fontprincipal';
+  background-color: #002E40;
+  border: solid 0.5px black;
+  border-radius: 0%;
+}
+
+.textproject > h2{
+  font-family: 'fontprincipal';
+  background-color: #FABD4A;
+  border-radius: 5px;
+}
+
+.btn > a {
+  text-decoration: none;
+  color: white;
+}
+
+#portifolio > h1 {
+  text-align: center;
+  font-family: 'fontprincipal';
+  color: gray;
+}
+
+.proj{
+  height: auto;
+  align-items: center;
+}
+
+footer{
+  background-color: #002E40;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+article{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+@media(max-width: 1200px){
+
+  main{
+    width: 600px;
+    margin: auto;
+  }
+
+  #infor-ini{
+    display: block;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  article{
+    display: block;
+    margin: auto;
+  }
+
+  #projetos{
+    display: block;
+    margin: auto;
+    align-content: space-around;
+  }
+  .caixaprojeto{
+    margin: 20px auto 20px auto;
+    
+  }
+
+  .proj{
+    align-content: space-around;
+    margin: 20px;
+  }
+}
+
+@media(max-width: 600px){
+
+  main{
+    width: 400px;
+    margin: auto;
+  }
+
+  header{
+    display: block;
+    text-align: center;
+  }
+
+  #text{
+    font-size: 18px;
+    color: rgb(180, 179, 179);
+    margin: 10px;
+  }
+
+  #infor-ini{
+    display: block;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  #about{
+    width: 400px;
+
+  }
+
+  #imgcarro{
+    width:400pxpx;
+    height:250px;
+  }
+  
+  .carroimg{
+    width: 400px;
+    height: 250px;
+  }
+
+  #skills{
+    width: 400px;
+  }
+  
+  #container{
+    width: 400px;
+  }
+
+  article{
+    display: block;
+    margin: auto;
+  }
+
+  #portifolio{
+    width: 400px;
+    margin: auto;
+  }
+
+  #projetos{
+    margin: auto;
+  }
+  .caixaprojeto{
+    margin: 20px auto 20px auto;
+    width: 400px;
+    height: auto;
+    
+  }
+
+  .imgprojeto{
+    width: 390px;
+  }
+  .proj{
+    margin: auto;
+  }
+}
+
+@media(max-width: 400px){
+
+  main{
+    width: 380px;
+    margin: auto;
+  }
+
+  header{
+    display: block;
+    text-align: center;
+  }
+
+  #text{
+    font-size: 16px;
+    color: rgb(180, 179, 179);
+    margin: 10px;
+  }
+
+  #infor-ini{
+    display: block;
+    color: white;
+    margin: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  #about{
+    width: 380px;
+
+  }
+
+  #imgcarro{
+    width:380px;
+    height:250px;
+  }
+  
+  .carroimg{
+    width: 380px;
+    height: 250px;
+  }
+
+  #skills{
+    width: 380px;
+  }
+  
+  #container{
+    width: 380px;
+  }
+
+  article{
+    display: block;
+    margin: auto;
+  }
+
+  #portifolio{
+    width: 380px;
+    margin: auto;
+  }
+
+  #projetos{
+    margin: auto;
+  }
+  .caixaprojeto{
+    margin: 20px auto 20px auto;
+    width: 380px;
+    height: auto;
+    
+  }
+
+  .imgprojeto{
+    width: 370px;
+  }
+  .proj{
+    margin: auto;
+  }
+}
+
